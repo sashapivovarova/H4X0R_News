@@ -11,6 +11,7 @@
 		5A81F2912C57D74B0075AB1E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A81F2902C57D74B0075AB1E /* ContentView.swift */; };
 		5A81F2932C57D7510075AB1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A81F2922C57D7510075AB1E /* Assets.xcassets */; };
 		5A81F2962C57D7510075AB1E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A81F2952C57D7510075AB1E /* Preview Assets.xcassets */; };
+		5A81F29E2C5A58350075AB1E /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A81F29D2C5A58340075AB1E /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		5A81F2902C57D74B0075AB1E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5A81F2922C57D7510075AB1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5A81F2952C57D7510075AB1E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5A81F29D2C5A58340075AB1E /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				5A81F28E2C57D74B0075AB1E /* H4X0R_NewsApp.swift */,
 				5A81F2902C57D74B0075AB1E /* ContentView.swift */,
+				5A81F29C2C5A58100075AB1E /* Model */,
 				5A81F2922C57D7510075AB1E /* Assets.xcassets */,
 				5A81F2942C57D7510075AB1E /* Preview Content */,
 			);
@@ -65,6 +68,14 @@
 				5A81F2952C57D7510075AB1E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5A81F29C2C5A58100075AB1E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5A81F29D2C5A58340075AB1E /* NetworkManager.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A81F29E2C5A58350075AB1E /* NetworkManager.swift in Sources */,
 				5A81F2912C57D74B0075AB1E /* ContentView.swift in Sources */,
 				5A81F28F2C57D74B0075AB1E /* H4X0R_NewsApp.swift in Sources */,
 			);
